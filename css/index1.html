@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning CSS!</title>
+    <style>
+      button {
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+        cursor: pointer;
+      }
+      button {
+        border: 2px solid gray;
+      }
+      button {
+        border: 2px solid yellow;
+      }
+
+      /* style by using class */
+
+      .my-class-a {
+        color: aqua;
+      }
+
+      #id {
+        color: rgb(234, 134, 13);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- IN LINE CSS  -->
+    <h1 style="text-decoration: underline; color: blueviolet">Learning CSS</h1>
+    <button style="background-color: red; color: white">Click Me</button>
+
+    <!-- CSS by adding style in a head (Common Css) -->
+
+    <button>Click Me</button>
+    <button style="border-color: rgb(30, 0, 255)">Click Me 2</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, odit!
+    </p>
+
+    <!-- Class And Id  (Id has more priority than class and class has more priority than element)-->
+    <hr />
+    <h1 class="my-class-a">Class</h1>
+    <p class="my-class-a">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+      voluptate dolorum qui. Voluptatum quam blanditiis quasi quos dicta,
+      placeat id?
+    </p>
+    <hr />
+    <h2>Id</h2>
+    <p id="id">Lorem, ipsum.</p>
+  </body>
+</html>
