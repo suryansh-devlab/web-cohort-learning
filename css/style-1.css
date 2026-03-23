@@ -1,0 +1,28 @@
+button{
+    border-radius: 5px solid black;
+    color:blue;
+    display: block;
+}
+
+p{
+    display: inline;
+}
+
+div {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.parent {
+  display: flex;
+  justify-content: start; /* work on main axis  */
+  align-items: start; /*work on cross axis */
+  height: 100px;
+}
+
+.child {
+  flex: 1;
+  border: 1px solid red;
+  padding: 5px;
+  height: 50px;
+}
