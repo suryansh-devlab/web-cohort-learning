@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff3e0;
+}
+.nav {
+  background-color: #f6e1bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+.nav-logo {
+  display: flex;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.nav-text {
+  display: flex;
+  gap: 10px;
+  color: black;
+  margin-left: 5px;
+}
+.nav-text:hover {
+  cursor: pointer;
+}
+.text {
+  color: orange;
+}
+.auth {
+  display: flex;
+  gap: 10px;
+}
+.auth button {
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: rgba(253, 246, 236, 0.92);
+}
+.auth button:hover {
+  cursor: pointer;
+  background-color: rgb(135, 40, 40);
+  color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.tag {
+  margin-top: 5px;
+  padding: 5px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #fff3e0;
+  border: 1px solid orange;
+  color: rgb(219, 151, 25);
+}
+.main {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.main span {
+  color: orange;
+}
+
+.dry {
+  color: rgb(255, 170, 12);
+}
+
+.spe {
+  margin-top: 30px;
+  font-size: 22px;
+  line-height: 1.8;
+  padding-left: 50px;
+}
+.first {
+  padding-left: 10px;
+}
+.third {
+  padding-left: 8%;
+}
+
+.spe button {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.shop {
+  color: white;
+  background-color: orange;
+}
+.bulk {
+  background-color: #fff3e0;
+}
+
+.shop:hover {
+  cursor: pointer;
+  background-color: brown;
+}
+.bulk:hover {
+  background-color: rgb(74, 35, 7);
+  color: white;
+}
+
+.browse {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6e1bf;
+  padding-top: 10px;
+}
+.browse h2 {
+  margin-top: 5px;
+  padding: 4px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #fff3e0;
+  border: 1px solid orange;
+  color: rgb(219, 151, 25);
+}
+.browse h1 {
+  margin: 10px;
+}
+.browse p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.three-card {
+  margin: 0px 10%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 80px;
+  gap: 10px;
+}
+
+.card {
+  border: 2px solid black;
+  width: 50%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+.card img {
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.card h3 {
+  margin: 20px 0;
+}
+.card p {
+  margin-bottom: 10px;
+}
