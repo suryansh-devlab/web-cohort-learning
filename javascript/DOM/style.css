@@ -1,0 +1,19 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: aqua;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  border-color: aqua;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
